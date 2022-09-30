@@ -1,0 +1,65 @@
+.site-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #FFFFFF;
+  min-width: 600px;
+  padding: 30px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+
+.site-modal.show {
+  display: block;
+}
+
+.site-modal-wrapper {
+  padding: 30px
+}
+
+.site-modal .title {
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.site-modal .form-control label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.site-modal .form-control input {
+  width: 100%;
+  border: 1px solid #000000;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.btn-close-modal {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-close-modal IMG {
+  cursor: pointer;
+}
+
+.btn-confirm-wrapper {
+  text-align: center;
+}
+
+.btn-confirm {
+  padding: 10px 40px;
+  font-size: 20px;
+  background-color: #9C69E2;
+  color: #FFFFFF;
+  border-radius: 50px;
+  margin-top: 50px;
+  border: 0;
+  cursor: pointer;
+}
